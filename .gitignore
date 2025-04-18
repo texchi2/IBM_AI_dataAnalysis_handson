@@ -47,3 +47,6 @@ ENV/
 # Project specific
 figures/
 *.csv
+*.xlsx
+2025April_FTM-ICT-Director-handover.md
+FTM-ICT_Computer_asset_Analysis.qmd
