@@ -1,0 +1,23 @@
+```python
+# # Used Car Price Analysis and Prediction Model
+#
+# This notebook performs analysis on a used car dataset to build a prediction model for optimal quotation prices for Ford cars.
+
+# ## 1. Loading and Exploring the Dataset
+
+# Import necessary libraries
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+# Load the dataset from the URL
+url = "https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMSkillsNetwork-AI0271EN-SkillsNetwork/labs/v1/m3/data/used_car_price_analysis.csv"
+
+# Read the CSV file into a pandas DataFrame
+df = pd.read_csv(url)
+
+# Display the first 5 rows of the DataFrame to verify correct loading
+print("First 5 rows of the dataset:")
+df.head()
+```
